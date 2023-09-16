@@ -1,0 +1,27 @@
+.bl7{
+    height: 100vh;
+    background-color: blue;
+}
+.boo {
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.boo::after {
+    content: "";
+    background-color: white;
+       width:130px;
+       height: 5px;
+       position: absolute;
+       top: 50%;
+       left: 55%;
+}
+.boo::before {
+    content: "";
+    background-color: white;
+       width:130px;
+       height: 5px;
+       position: absolute;
+       top: 50%;
+      right: 55%;
+}

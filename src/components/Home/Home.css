@@ -1,0 +1,50 @@
+.dg {
+    background-color: rgb(7, 174, 135);
+    height: 100vh;
+    
+   
+}
+
+
+.dg h1 {
+    color: white;
+    text-align: center;
+    
+}
+.dg img {
+    width: 150px;
+  align-items: center;
+  justify-content: center;
+  transition: all;
+  
+
+}
+.dg p {
+    color: white;
+   text-align: center;
+   margin-top: 30px;
+    
+}
+.do {
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.do::after {
+    content: "";
+    background-color: white;
+       width:130px;
+       height: 5px;
+       position: absolute;
+       top: 50%;
+       left: 55%;
+}
+.do::before {
+    content: "";
+    background-color: white;
+       width:130px;
+       height: 5px;
+       position: absolute;
+       top: 50%;
+      right: 55%;
+}

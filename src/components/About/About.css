@@ -1,0 +1,38 @@
+
+
+.coler {
+    background-color: teal;
+    height: 100vh;
+    color: white;
+   
+   
+   padding: 100px ;
+ 
+}
+.line {
+   
+    color: white;
+    text-align: center;
+    position: relative;
+    
+}
+.line::after{
+    content: "";
+ background-color: white;
+    width:130px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+
+}
+.line::before{
+    content: "";
+ background-color: white;
+    width:130px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+     right: 55%;
+
+}

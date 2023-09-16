@@ -1,0 +1,68 @@
+
+.so {
+   text-align: center;
+   position: relative;
+   
+}
+.so::after {
+    content: "";
+    background-color: black;
+       width:130px;
+       height: 5px;
+       position: absolute;
+       top: 50%;
+       left: 55%;
+}
+.so::before {
+    content: "";
+    background-color: black;
+       width:130px;
+       height: 5px;
+       position: absolute;
+       top: 50%;
+       right: 55%;
+}
+
+.col-md-4{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    
+    display: inline-block;
+
+ 
+
+}
+.image {
+    display: block;
+    width:400px;
+    height: 300px;
+     border-radius: 10px 10px 10px 10px;
+}
+.overlay {
+    position: absolute;
+    transition: all .5s ease;
+    opacity: 0;
+    background-color:rgb(69, 202, 69);
+}
+.oo {
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    
+}
+.layer {
+    height: 300px;
+    width: 405px;
+    top: 0;
+    left: 1;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.col-md-4:hover .layer {
+    opacity: 0.9;
+}
